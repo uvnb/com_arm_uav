@@ -1,0 +1,4 @@
+Input: ['j2', 'j4', 'j5', 'v2', 'v4', 'v5', 'ee_x', 'ee_y', 'ee_z']
+Target: ['com_x', 'com_y', 'com_z']
+Window: 30, Offset: 10
+Train: 5448, Test: 1363

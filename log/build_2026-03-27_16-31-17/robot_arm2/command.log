@@ -1,0 +1,4 @@
+Invoking command in '/home/quan/robot_arm_uav/build/robot_arm2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quan/robot_arm_uav/build/robot_arm2 -- -j8 -l8
+Invoked command in '/home/quan/robot_arm_uav/build/robot_arm2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quan/robot_arm_uav/build/robot_arm2 -- -j8 -l8
+Invoking command in '/home/quan/robot_arm_uav/build/robot_arm2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quan/robot_arm_uav/build/robot_arm2
+Invoked command in '/home/quan/robot_arm_uav/build/robot_arm2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quan/robot_arm_uav/build/robot_arm2

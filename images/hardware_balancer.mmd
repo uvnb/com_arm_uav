@@ -1,0 +1,12 @@
+graph TD
+    Start([Khởi động Trạm Gác Pin]) --> A[Nhận Data từ Topic /ai_pred_com_x]
+    A --> B{Đã có \n Mốc Zero?}
+    B -- Lần Đầu --> C[Lưu giá trị làm Mốc Zero gốc]
+    C --> M[Chờ Lệnh Dự Đoán tiếp theo]
+    B -- Đã Có --> D[Tính Vị trí Tuyệt đối Pin = Invert -X]
+    D --> E[Tính toán Hành trình Trượt bù số Milimet]
+    E --> F[Gửi xung PWM sang Driver Stepper]
+    F --> G[Cục Pin Tịnh tiến Cơ học]
+    G --> H[Cân bằng Cánh tay Drone]
+    H --> M
+    M --> A

@@ -1,0 +1,12 @@
+graph TD
+    Start([Bắt đầu Huấn luyện AI]) --> A[Tải file CSV Dataset]
+    A --> B[Trích xuất 8 Features Đặc trưng]
+    B --> C[Chuẩn hóa Tỉ lệ Z-Score Normalization]
+    C --> D[Cắt Data thành Ma trận Cửa sổ Window=30]
+    D --> E[Gắn nhãn Target tương lai t+0.5s]
+    E --> F[Truyền Ma trận vào lớp Convolution 1D]
+    F --> G[Tối ưu hóa Trọng số bằng Loss MSE]
+    G --> H{Loss đạt \n Tối thiểu?}
+    H -- Chưa Đạt --> F
+    H -- Đạt Min --> I[Lưu file best_com_model_armfinal.pth]
+    I --> End([Kết thúc Huấn luyện])

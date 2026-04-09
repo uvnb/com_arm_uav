@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/quan/robot_arm_uav/ros2_ws/src/robot_arm2",
+    "cmake.ignoreCMakeListsMissing": true
+}

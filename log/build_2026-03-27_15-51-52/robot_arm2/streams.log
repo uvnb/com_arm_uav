@@ -1,0 +1,99 @@
+[0.026s] Invoking command in '/home/quan/robot_arm_uav/build/robot_arm2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quan/robot_arm_uav/ros2_ws/src/robot_arm2 -DCMAKE_INSTALL_PREFIX=/home/quan/robot_arm_uav/install/robot_arm2
+[0.327s] -- The C compiler identification is GNU 11.4.0
+[0.565s] -- The CXX compiler identification is GNU 11.4.0
+[0.590s] -- Detecting C compiler ABI info
+[0.786s] -- Detecting C compiler ABI info - done
+[0.809s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.810s] -- Detecting C compile features
+[0.812s] -- Detecting C compile features - done
+[0.823s] -- Detecting CXX compiler ABI info
+[1.033s] -- Detecting CXX compiler ABI info - done
+[1.054s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.054s] -- Detecting CXX compile features
+[1.056s] -- Detecting CXX compile features - done
+[1.062s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.605s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.053s] -- Configuring done
+[2.060s] -- Generating done
+[2.065s] -- Build files have been written to: /home/quan/robot_arm_uav/build/robot_arm2
+[2.074s] Invoked command in '/home/quan/robot_arm_uav/build/robot_arm2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quan/robot_arm_uav/ros2_ws/src/robot_arm2 -DCMAKE_INSTALL_PREFIX=/home/quan/robot_arm_uav/install/robot_arm2
+[2.079s] Invoking command in '/home/quan/robot_arm_uav/build/robot_arm2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quan/robot_arm_uav/build/robot_arm2 -- -j8 -l8
+[2.174s] Invoked command in '/home/quan/robot_arm_uav/build/robot_arm2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quan/robot_arm_uav/build/robot_arm2 -- -j8 -l8
+[2.193s] Invoking command in '/home/quan/robot_arm_uav/build/robot_arm2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quan/robot_arm_uav/build/robot_arm2
+[2.212s] -- Install configuration: ""
+[2.212s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes
+[2.213s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm
+[2.213s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel2_1.stl
+[2.222s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel3_1.stl
+[2.231s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/servoMG90S__2__1.stl
+[2.232s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/servoMG90S__1__1.stl
+[2.234s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/DigitalServo8120_1.stl
+[2.239s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat_1.stl
+[2.240s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/pin_1.stl
+[2.240s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/mmmoootttooorrr__2__1.stl
+[2.245s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/hopbut_1.stl
+[2.246s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel1_1.stl
+[2.255s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel4_1.stl
+[2.263s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link2_1.stl
+[2.265s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat__3__1.stl
+[2.265s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link4_1.stl
+[2.267s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/servoMG90S_1.stl
+[2.268s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link3_1.stl
+[2.269s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/motor1_1.stl
+[2.274s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/que1_1.stl
+[2.275s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/but_1.stl
+[2.276s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/DigitalServo8120__1__1.stl
+[2.282s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/motor2_1.stl
+[2.286s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/base_link.stl
+[2.289s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat__1__1.stl
+[2.289s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/than_tren_1.stl
+[2.293s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/mmmoootttooorrr__3__1.stl
+[2.298s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/DigitalServo8120__2__1.stl
+[2.303s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/que2_1.stl
+[2.304s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat__2__1.stl
+[2.305s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/cuoi_1.stl
+[2.307s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/base_1.stl
+[2.308s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link1_1.stl
+[2.310s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/hopp_1.stl
+[2.311s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf
+[2.311s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/materials.xacro
+[2.311s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm
+[2.312s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/materials.xacro
+[2.312s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/new_arm.gazebo.xacro
+[2.313s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/new_arm.ros2_control.xacro
+[2.313s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/new_arm.xacro
+[2.313s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/launch
+[2.314s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/launch/new_arm_gazebo.launch.py
+[2.314s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/config
+[2.314s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/config/new_arm_controllers.yaml
+[2.314s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts
+[2.315s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/predict_com_realtime.py
+[2.315s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/planar_trajectory.py
+[2.315s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/com_visualizer_node.py
+[2.316s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/data_generator.py
+[2.316s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__
+[2.316s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__/fk.cpython-310.pyc
+[2.317s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__/data_generator.cpython-310.pyc
+[2.317s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__/com_visualizer_node.cpython-310.pyc
+[2.317s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/calculate_global_com.py
+[2.318s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/train_1d_cnn.py
+[2.318s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/fk.py
+[2.318s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/new_arm_joint_slider.py
+[2.319s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/preprocess_com.py
+[2.320s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/lib/robot_arm2/new_arm_joint_slider.py
+[2.320s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/ament_index/resource_index/package_run_dependencies/robot_arm2
+[2.321s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/ament_index/resource_index/parent_prefix_path/robot_arm2
+[2.322s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/ament_prefix_path.sh
+[2.322s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/ament_prefix_path.dsv
+[2.323s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/path.sh
+[2.323s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/path.dsv
+[2.323s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.bash
+[2.324s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.sh
+[2.324s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.zsh
+[2.325s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.dsv
+[2.325s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/package.dsv
+[2.326s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/ament_index/resource_index/packages/robot_arm2
+[2.326s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/cmake/robot_arm2Config.cmake
+[2.326s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/cmake/robot_arm2Config-version.cmake
+[2.327s] -- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/package.xml
+[2.332s] Invoked command in '/home/quan/robot_arm_uav/build/robot_arm2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quan/robot_arm_uav/build/robot_arm2

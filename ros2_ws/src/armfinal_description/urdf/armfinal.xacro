@@ -1,0 +1,362 @@
+<?xml version="1.0" ?>
+<robot name="armfinal" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find armfinal_description)/urdf/materials.xacro" />
+<!-- armfinal.trans removed: ROS1 EffortJointInterface conflicts with ros2_control position interface -->
+<xacro:include filename="$(find armfinal_description)/urdf/armfinal.gazebo" />
+<xacro:include filename="$(find armfinal_description)/urdf/armfinal.ros2_control.xacro" />
+
+<link name="world"/>
+
+<joint name="world_fixed" type="fixed">
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+  <parent link="world"/>
+  <child link="base_link"/>
+</joint>
+
+<!-- ============ LINKS (geometry from armfinal_description01, no collision) ============ -->
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="1.686798300874003e-13 1.5073100105544756e-12 0.6067788053533715" rpy="0 0 0"/>
+    <mass value="0.023876585201375762"/>
+    <inertia ixx="1e-05" iyy="1.6e-05" izz="2.5e-05" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="81201_1">
+  <inertial>
+    <origin xyz="0.0039000001208185915 -0.02371113592219878 0.010047450927330503" rpy="0 0 0"/>
+    <mass value="0.0723259479731311"/>
+    <inertia ixx="1.9e-05" iyy="1.2e-05" izz="1.2e-05" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.003894 -0.02389 -0.61" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/81201_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="link1_1">
+  <inertial>
+    <origin xyz="-0.002958071721982568 -0.011258404163597508 -0.015638420139456266" rpy="0 0 0"/>
+    <mass value="0.03207346368318684"/>
+    <inertia ixx="1.6e-05" iyy="1e-05" izz="1.7e-05" ixy="-1e-06" iyz="-4e-06" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-6e-06 -0.010703 -0.5938" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/link1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="81202_1">
+  <inertial>
+    <origin xyz="-0.0073463892738972305 0.024074137967044218 -0.0038997379242613484" rpy="0 0 0"/>
+    <mass value="0.0723259479731311"/>
+    <inertia ixx="1.2e-05" iyy="1.2e-05" izz="1.9e-05" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.007612 0.038138 -0.560076" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/81202_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="link2_1">
+  <inertial>
+    <origin xyz="-0.020775066198680622 -0.0002966135050363242 -0.0656287776608801" rpy="0 0 0"/>
+    <mass value="0.08154393013878859"/>
+    <inertia ixx="0.000128" iyy="0.000155" izz="6.7e-05" ixy="-0.0" iyz="0.0" ixz="2.6e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.026381 0.003216 -0.556176" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="mg996_1">
+  <inertial>
+    <origin xyz="-0.026246114703414432 -0.0002916322951522828 -0.010523420337634704" rpy="0 0 0"/>
+    <mass value="0.06107524495508848"/>
+    <inertia ixx="1e-05" iyy="1.6e-05" izz="1e-05" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.026382 0.003309 -0.401176" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/mg996_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="link3_1">
+  <inertial>
+    <origin xyz="-0.02385730217288129 0.023781873204568437 -0.039548038771205496" rpy="0 0 0"/>
+    <mass value="0.04211261488564385"/>
+    <inertia ixx="3.4e-05" iyy="3.1e-05" izz="1.7e-05" ixy="-1e-06" iyz="7e-06" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.007232 0.007489 -0.414351" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="mg901_1">
+  <inertial>
+    <origin xyz="-0.015503841320573563 -0.0002005885977833348 0.002772452692164362" rpy="0 0 0"/>
+    <mass value="0.023764535428915497"/>
+    <inertia ixx="2e-06" iyy="3e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.001011 -0.026476 -0.323773" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/mg901_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="link4_1">
+  <inertial>
+    <origin xyz="0.0008712860283218368 1.5286728078576367e-05 -0.023912041663441297" rpy="0 0 0"/>
+    <mass value="0.015631200996358827"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="3e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.019438 -0.026271 -0.308773" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/link4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="mg902_1">
+  <inertial>
+    <origin xyz="-0.0029640548029746558 0.01546919661605967 4.918968068429175e-05" rpy="0 0 0"/>
+    <mass value="0.023764535428915497"/>
+    <inertia ixx="1e-06" iyy="2e-06" izz="3e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.003746 -0.011493 -0.266225" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/mg902_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="link5_1">
+  <inertial>
+    <origin xyz="0.012603990374832709 0.00021593843185001294 -0.038561519043762565" rpy="0 0 0"/>
+    <mass value="0.031034602762987303"/>
+    <inertia ixx="3.8e-05" iyy="3.8e-05" izz="5e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.018492 -0.032127 -0.26629" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/link5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="mg903_1">
+  <inertial>
+    <origin xyz="0.0025799749567732132 0.015538251782776132 4.935648974604967e-05" rpy="0 0 0"/>
+    <mass value="0.023764535428915497"/>
+    <inertia ixx="1e-06" iyy="2e-06" izz="3e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.011178 -0.017075 -0.191242" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/mg903_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="hopbut_1">
+  <inertial>
+    <origin xyz="-0.009898738212024877 -0.00010804055293560377 2.145520120733213e-07" rpy="0 0 0"/>
+    <mass value="0.01013794554176892"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.004075 -0.037338 -0.191307" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/hopbut_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="but_1">
+  <inertial>
+    <origin xyz="-9.355028503348073e-07 7.801844199689656e-05 -0.024421774935410506" rpy="0 0 0"/>
+    <mass value="0.005066046922932119"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.016324 -0.037218 -0.181307" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/but_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<link name="bibutt_1">
+  <inertial>
+    <origin xyz="5.0718876862254625e-08 -2.1351135999492232e-07 4.736982579800486e-07" rpy="0 0 0"/>
+    <mass value="8.7113746290167e-06"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.016326 -0.037378 -0.131307" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://armfinal_description/meshes/bibutt_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+</link>
+
+<!-- ============ JOINTS (geometry from 01, names kept for ROS 2 compatibility) ============ -->
+
+<!-- Fixed: base_link → 81201_1 -->
+<joint name="Rigid 1" type="fixed">
+  <origin xyz="-0.003894 0.02389 0.61" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="81201_1"/>
+</joint>
+
+<!-- Revolute: 81201_1 → link1_1 (Base rotation, Z-axis) -->
+<joint name="Revolute 2" type="revolute">
+  <origin xyz="0.0039 -0.013187 -0.0162" rpy="0 0 0"/>
+  <parent link="81201_1"/>
+  <child link="link1_1"/>
+  <axis xyz="-0.0 -0.0 -1.0"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
+  <dynamics damping="0.05" friction="0.01"/>
+</joint>
+
+<!-- Fixed: link1_1 → 81202_1 -->
+<joint name="Rigid 3" type="fixed">
+  <origin xyz="0.007606 -0.048841 -0.033724" rpy="0 0 0"/>
+  <parent link="link1_1"/>
+  <child link="81202_1"/>
+</joint>
+
+<!-- Revolute: 81202_1 → link2_1 (Shoulder) -->
+<joint name="Revolute 4" type="revolute">
+  <origin xyz="0.018769 0.034922 -0.0039" rpy="0 0 0"/>
+  <parent link="81202_1"/>
+  <child link="link2_1"/>
+  <axis xyz="0.999923 0.012397 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <dynamics damping="0.05" friction="0.01"/>
+</joint>
+
+<!-- Revolute: link2_1 → mg996_1 (Elbow) -->
+<joint name="Revolute 5" type="revolute">
+  <origin xyz="1e-06 -9.3e-05 -0.155" rpy="0 0 0"/>
+  <parent link="link2_1"/>
+  <child link="mg996_1"/>
+  <axis xyz="0.999923 0.012397 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <dynamics damping="0.05" friction="0.01"/>
+</joint>
+
+<!-- Fixed: mg996_1 → link3_1 -->
+<joint name="Rigid 6" type="fixed">
+  <origin xyz="-0.01915 -0.00418 0.013175" rpy="0 0 0"/>
+  <parent link="mg996_1"/>
+  <child link="link3_1"/>
+</joint>
+
+<!-- Fixed: link3_1 → mg901_1 -->
+<joint name="Rigid 7" type="fixed">
+  <origin xyz="-0.006221 0.033965 -0.090578" rpy="0 0 0"/>
+  <parent link="link3_1"/>
+  <child link="mg901_1"/>
+</joint>
+
+<!-- Revolute: mg901_1 → link4_1 (Wrist 1) -->
+<joint name="Revolute 8" type="revolute">
+  <origin xyz="-0.020449 -0.000205 -0.015" rpy="0 0 0"/>
+  <parent link="mg901_1"/>
+  <child link="link4_1"/>
+  <axis xyz="-4e-05 0.003197 -0.999995"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <dynamics damping="0.01" friction="0.005"/>
+</joint>
+
+<!-- Fixed: link4_1 → mg902_1 -->
+<joint name="Rigid 9" type="fixed">
+  <origin xyz="0.023184 -0.014778 -0.042548" rpy="0 0 0"/>
+  <parent link="link4_1"/>
+  <child link="mg902_1"/>
+</joint>
+
+<!-- Revolute: mg902_1 → link5_1 (Wrist 2) -->
+<joint name="Revolute 10" type="revolute">
+  <origin xyz="0.014746 0.020634 6.5e-05" rpy="0 0 0"/>
+  <parent link="mg902_1"/>
+  <child link="link5_1"/>
+  <axis xyz="0.999923 0.012397 0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <dynamics damping="0.01" friction="0.005"/>
+</joint>
+
+<!-- Fixed: link5_1 → mg903_1 -->
+<joint name="Rigid 11" type="fixed">
+  <origin xyz="-0.007314 -0.015052 -0.075048" rpy="0 0 0"/>
+  <parent link="link5_1"/>
+  <child link="mg903_1"/>
+</joint>
+
+<!-- Revolute: mg903_1 → hopbut_1 (Wrist 3) -->
+<joint name="Revolute 12" type="revolute">
+  <origin xyz="-0.015253 0.020263 6.5e-05" rpy="0 0 0"/>
+  <parent link="mg903_1"/>
+  <child link="hopbut_1"/>
+  <axis xyz="-0.999923 -0.012397 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+  <dynamics damping="0.01" friction="0.005"/>
+</joint>
+
+<!-- Fixed: hopbut_1 → but_1 -->
+<joint name="Rigid 13" type="fixed">
+  <origin xyz="-0.012249 -0.00012 -0.01" rpy="0 0 0"/>
+  <parent link="hopbut_1"/>
+  <child link="but_1"/>
+</joint>
+
+<!-- Fixed: but_1 → bibutt_1 -->
+<joint name="Rigid 14" type="fixed">
+  <origin xyz="-2e-06 0.00016 -0.05" rpy="0 0 0"/>
+  <parent link="but_1"/>
+  <child link="bibutt_1"/>
+</joint>
+
+</robot>

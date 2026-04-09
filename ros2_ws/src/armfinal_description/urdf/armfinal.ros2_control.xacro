@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ros2_control tag for Ignition Gazebo Fortress -->
+  <ros2_control name="ArmFinalSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+      <param name="position_proportional_gain">100.0</param>
+    </hardware>
+
+    <!-- Joint 1 (Base) -->
+    <joint name="Revolute 2">
+      <command_interface name="position">
+        <param name="min">-1.570796</param>
+        <param name="max">4.712389</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Joint 2 (Shoulder) -->
+    <joint name="Revolute 4">
+      <command_interface name="position">
+        <param name="min">-1.570796</param>
+        <param name="max">1.570796</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Joint 3 (Elbow) -->
+    <joint name="Revolute 5">
+      <command_interface name="position">
+        <param name="min">-1.047198</param>
+        <param name="max">3.141593</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Joint 4 (Wrist 1) -->
+    <joint name="Revolute 8">
+      <command_interface name="position">
+        <param name="min">-3.141593</param>
+        <param name="max">3.141593</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Joint 5 (Wrist 2) -->
+    <joint name="Revolute 10">
+      <command_interface name="position">
+        <param name="min">-1.570796</param>
+        <param name="max">1.570796</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Joint 6 (Wrist 3) -->
+    <joint name="Revolute 12">
+      <command_interface name="position">
+        <param name="min">-1.570796</param>
+        <param name="max">1.570796</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+  </ros2_control>
+
+  <!-- Gazebo Ignition plugin for ros2_control -->
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find armfinal_description)/config/armfinal_controllers.yaml</parameters>
+      <position_proportional_gain>100.0</position_proportional_gain>
+      <ros>
+        <remapping>/controller_manager/robot_description:=/robot_description</remapping>
+      </ros>
+    </plugin>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,11 @@
+graph TD
+    Start([Khởi động Bảng điều khiển]) --> A[Lắng nghe Topic /joint_states]
+    A --> B[Bơm Dữ liệu vào Hàng đợi Queue N=30]
+    B --> C{Cửa sổ đủ \n 30 Ticks?}
+    C -- Chưa Đủ --> A
+    C -- Đã Đủ --> D[Chuẩn hóa Mảng Tensor 30x8]
+    D --> E[Mạng PyTorch Suy luận Tọa độ]
+    E --> F[Đảo ngược Chuẩn hóa sang đơn vị mm]
+    F --> G[Vẽ Đường dự đoán lên Đồ thị Matplotlib]
+    G --> H[Phát sóng ROS 2 Topic /ai_pred_com_x]
+    H --> A

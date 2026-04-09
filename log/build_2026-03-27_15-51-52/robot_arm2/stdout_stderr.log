@@ -1,0 +1,93 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quan/robot_arm_uav/build/robot_arm2
+-- Install configuration: ""
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel2_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel3_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/servoMG90S__2__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/servoMG90S__1__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/DigitalServo8120_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/pin_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/mmmoootttooorrr__2__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/hopbut_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel1_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/FlameWheel4_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link2_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat__3__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link4_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/servoMG90S_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link3_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/motor1_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/que1_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/but_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/DigitalServo8120__1__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/motor2_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/base_link.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat__1__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/than_tren_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/mmmoootttooorrr__3__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/DigitalServo8120__2__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/que2_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/quat__2__1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/cuoi_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/base_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/link1_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/meshes/new_arm/hopp_1.stl
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/materials.xacro
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/materials.xacro
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/new_arm.gazebo.xacro
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/new_arm.ros2_control.xacro
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/urdf/new_arm/new_arm.xacro
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/launch
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/launch/new_arm_gazebo.launch.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/config
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/config/new_arm_controllers.yaml
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/predict_com_realtime.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/planar_trajectory.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/com_visualizer_node.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/data_generator.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__/fk.cpython-310.pyc
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__/data_generator.cpython-310.pyc
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/__pycache__/com_visualizer_node.cpython-310.pyc
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/calculate_global_com.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/train_1d_cnn.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/fk.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/new_arm_joint_slider.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/scripts/preprocess_com.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/lib/robot_arm2/new_arm_joint_slider.py
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/ament_index/resource_index/package_run_dependencies/robot_arm2
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/ament_index/resource_index/parent_prefix_path/robot_arm2
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/ament_prefix_path.sh
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/ament_prefix_path.dsv
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/path.sh
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/environment/path.dsv
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.bash
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.sh
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.zsh
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/local_setup.dsv
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/package.dsv
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/ament_index/resource_index/packages/robot_arm2
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/cmake/robot_arm2Config.cmake
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/cmake/robot_arm2Config-version.cmake
+-- Installing: /home/quan/robot_arm_uav/install/robot_arm2/share/robot_arm2/package.xml

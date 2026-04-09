@@ -1,0 +1,8 @@
+graph TD
+    Start([Bắt đầu lặp 20Hz]) --> A[Gửi lệnh Sóng Sin 0.1-1.2Hz]
+    A --> B[Gazebo Physics Engine]
+    B --> C[Đọc State từ /joint_states]
+    C --> D[Chạy RobotTree FK Solver]
+    D --> E[Tính Tọa độ X, Y, Z thực tế]
+    E --> F[Ghi vào file CSV]
+    F --> End([Kết thúc Khung hình])

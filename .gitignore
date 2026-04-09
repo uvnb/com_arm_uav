@@ -1,0 +1,18 @@
+# ROS 2 Workspaces
+ros2_ws/install/
+ros2_ws/build/
+ros2_ws/log/
+
+# Python & Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Antigravity artifacts & System Temp
+.gemini/
+*.webm
+*.mp4
+/tmp/
+
+# OS generated files
+.DS_Store
